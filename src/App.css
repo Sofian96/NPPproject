@@ -1,0 +1,238 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 13s ease infinite;
+	height: 100%;
+   
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} 
+
+/*tout le header*/
+
+.nav{
+    opacity: 0.9;
+    padding: 9px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav:hover{
+  background-color: pink;  
+}
+
+img{
+    height: 5%;
+    width: 5%;
+}
+
+/*tout le form d'insciption*/
+
+.toutIns{
+  padding-bottom: 50px;
+}
+
+.Form-header{
+  color: rgb(100, 120, 236);
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: larger;
+}
+
+
+#form{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+#form h4{
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+}
+
+#form p{
+  text-align: center;
+  margin-top: 8px;
+  font-family: monospace;
+  font-size: smaller;
+}
+
+#form .btn-signin{
+color: yellow;
+text-decoration: none;
+}
+
+form {
+  padding-top: 15px;
+  max-width: 340px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+ }
+
+/* Input style du form d'inscription et connexion */
+  
+.input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #afacac;
+    border-radius: 6px;
+    margin: 12px;
+    height: 45px;
+  }
+  
+  .input-container:focus-within label {
+    transform: translate(0, 12px) scale(0.8);
+    color: #0a53e4;
+  }
+  
+  .input-container .filled {
+    transform: translate(0, 12px) scale(0.8);
+  }
+  
+  .input-container label {
+    position: absolute;
+    pointer-events: none;
+    transform: translate(0, 23px) scale(1);
+    transform-origin: top left;
+    transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    color: #6f81a5;
+    font-size: 14px;
+    line-height: 1;
+    left: 12px;
+  }
+  
+  .input-container input {
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    padding: 24px 16px 4px 16px;
+    font-size: 12px;
+    line-height: 1;
+    outline: none;
+    box-shadow: none;
+    transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    
+    
+  }
+  
+  .input-container input:focus {
+    box-shadow: 0 0 0 2px #f732ed;
+  }
+
+
+  .input .btn-inscription{
+    font-size: 16px;
+  width: 90%;
+  background-color: #5551FF;
+  color: #FFF;
+  border: none;
+  height: 45px;
+  border-radius: 6px;
+  font-weight: 800;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#accord{
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*tout le form de connexion*/
+
+.Form{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 49px;
+}
+
+.Form-Con h4{
+  padding-bottom: 20px;
+  color: rgb(14, 134, 182);
+  text-align: center;
+}
+
+.Form-Con .btn-connexion{
+  font-size: 16px;
+  width: 90%;
+  background-color: #5551FF;
+  color: #FFF;
+  border: none;
+  height: 45px;
+  border-radius: 6px;
+  font-weight: 800;
+  margin: auto;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+.Form-Con .btn-pascompte{
+  font-size: 16px;
+  width: 90%;
+  background-color: #5551FF;
+  color: #FFF;
+  border: none;
+  height: 45px;
+  border-radius: 6px;
+  font-weight: 800;
+  margin: auto;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/*la page principal une fois connecté*/
+
+.Main-header{
+  display: flex;
+  justify-content: space-between;
+  color: palegoldenrod;
+  border-bottom: red 1px solid;
+}
+  
+/*le footer*/
+
+.footer{
+  color: white;
+  background-color: black;
+  text-align: center;
+  bottom:0;
+  bottom: 0;
+  width: 100%;
+}
