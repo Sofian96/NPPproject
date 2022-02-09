@@ -7,6 +7,7 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import { Component } from 'react/cjs/react.production.min';
 import Header from './components/Header';
+import TinderCards from './components/TinderCards';
 
 class App extends Component {
   render(){
@@ -17,15 +18,13 @@ class App extends Component {
     
     <Routes>
      
-     
-
-        <Route exact path='/' element={<FormIns />} />
-        <Route path='FormCon/' element={<FormCon />} />
-        <Route path='FormIns/' element={<FormIns />} />
-        <Route path='Main/' element={<Main />} />
-
-
-      
+      <Route path='/FormCon' element={<FormCon />} />
+      <Route path='/FormIns' element={<FormIns />} />
+      <Route path='/Main' element={<Main />} />
+      <Route exact path='/' element={<FormIns />} />
+      <Route exact path='/TinderCards' element={<TinderCards />} />
+    
+ 
     </Routes>
 
     <Footer />

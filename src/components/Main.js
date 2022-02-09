@@ -4,6 +4,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import BuildCircleIcon from '@mui/icons-material/BuildCircle';
 import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
 import IconButton from '@mui/material/IconButton';
+import TinderCard from 'react-tinder-card';
 
 
 
@@ -18,6 +19,7 @@ class Main extends Component {
 
             <IconButton>
             <SportsEsportsIcon fontSize='large'/>
+            <TinderCard />
             </IconButton>
 
             <IconButton>
