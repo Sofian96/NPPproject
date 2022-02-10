@@ -21,8 +21,8 @@ class App extends Component {
       <Route path='/FormCon' element={<FormCon />} />
       <Route path='/FormIns' element={<FormIns />} />
       <Route path='/Main' element={<Main />} />
-      <Route exact path='/' element={<FormIns />} />
       <Route exact path='/TinderCards' element={<TinderCards />} />
+      <Route exact path='/' element={<FormIns />} />
     
  
     </Routes>

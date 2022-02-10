@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import TextInput from './TextInput';
-import FormIns from './FormIns';
 
 class FormCon extends Component {
   render() {
